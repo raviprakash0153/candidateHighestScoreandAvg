@@ -5,8 +5,7 @@ const route = require('./api/api');
 const mongoose = require('mongoose');
 
 //connect database
-const db =
-  'mongodb+srv://Ravi:0153ravi@cluster0.agc7k.mongodb.net/candidate?retryWrites=true&w=majority';
+const db = 'Your database username and password and name of database';
 try {
   mongoose.connect(db, {
     useNewUrlParser: true,
